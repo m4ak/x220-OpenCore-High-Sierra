@@ -30,16 +30,21 @@ Bios: 1.46 去除白名单
 
 - bios设置
 
-*– Restart > **Load Setup Defaults**
-– Config > Power > Power On with AC Attach > **Disabled**
-– Config > Serial ATA (SATA) > SATA Controller Mode Option > **AHCI***
-*– Security > Memory protection > Execution Prevention > **Enabled***
-– Startup > UEFI/Legacy Boot > **Both**
+1. Restart > **Load Setup Defaults**
+2.  Config > Power > Power On with AC Attach > **Disabled**
+3.  Config > Serial ATA (SATA) > SATA Controller Mode Option > **AHCI***
+4. – Security > Memory protection > Execution Prevention > **Enabled***
+5.  Startup > UEFI/Legacy Boot > **Both**
 
 - bios升级
 
-1. 将bios升级到1.46版本，如果已经是1.46版本可以直接安装修改后的bios文件，使用bios目录中的升级文件或者自行下载官方的1.46版本bios都可以，链接https://support.lenovo.com/us/en/downloads/ds018805 ，下载完后一定要验证文件大小，确保升级文件没有问题。升级之前做一下恢复默认设置不要设置什么开机密码之类的，直接在windows下运行8duj31us.exe文件可以完成升级，操作过程可以查看官方的升级文档8duj31us.txt                                                                                                                                                                          **MD5:** 87377d3ac64ce865b38ad15a56518e8
-2. 将bios目录中的X220_v1.46_Modified_BIOS.zip放到带PE的U盘内，或者到http://x220.mcdonnelltech.com 自行下载，开机按F12选择以U盘启动进入PE系统，解压的X220_v1.46_Modified_BIOS.zip，运行flash.bat进行bios的更新，更新完成后提示重启机器。重启后直接进bios有高级菜单，升级成功。注意升级过程中不要断电                                                                                                                                                           **MD5**: 4a769c4f17e8aa0dc0e6927ebe75635d
+1. 将bios升级到1.46版本，如果已经是1.46版本可以直接安装修改后的bios文件，使用bios目录中的升级文件或者自行下载官方的1.46版本bios都可以，链接https://support.lenovo.com/us/en/downloads/ds018805 ，下载完后一定要验证文件大小，确保升级文件没有问题。升级之前做一下恢复默认设置不要设置什么开机密码之类的，直接在windows下运行8duj31us.exe文件可以完成升级，操作过程可以查看官方的升级文档8duj31us.txt               
+
+   **MD5:** 87377d3ac64ce865b38ad15a56518e8
+
+2. 将bios目录中的X220_v1.46_Modified_BIOS.zip放到带PE的U盘内，或者到http://x220.mcdonnelltech.com 自行下载，开机按F12选择以U盘启动进入PE系统，解压的X220_v1.46_Modified_BIOS.zip，运行flash.bat进行bios的更新，更新完成后提示重启机器。重启后直接进bios有高级菜单，升级成功。注意升级过程中不要断电      
+
+   **MD5**: 4a769c4f17e8aa0dc0e6927ebe75635d
 
 ## 系统状态
 
