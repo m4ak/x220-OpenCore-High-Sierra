@@ -33,7 +33,7 @@ Bios: 1.46 去除白名单
 1. Restart > **Load Setup Defaults**
 2.  Config > Power > Power On with AC Attach > **Disabled**
 3.  Config > Serial ATA (SATA) > SATA Controller Mode Option > **AHCI***
-4. – Security > Memory protection > Execution Prevention > **Enabled***
+4. Security > Memory protection > Execution Prevention > **Enabled***
 5.  Startup > UEFI/Legacy Boot > **Both**
 
 - bios升级
